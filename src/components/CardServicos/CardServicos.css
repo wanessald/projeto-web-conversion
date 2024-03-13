@@ -15,7 +15,7 @@
     transition: all .3s; 
 }
 
-#cards a { 
+#cards article { 
     display: flex; 
     flex-direction: column; 
     align-items: stretch; 
@@ -25,20 +25,20 @@
     padding: 42px 20px 20px; 
 }
 
-#cards a img { 
+#cards article img { 
     width: 45px; 
     height: 45px; 
     margin: 0 auto 15px; 
 }
 
-#cards a h3 { 
+#cards article h3 { 
     font-size: 22px;
     font-weight: 800;
     color: #4f5f82; 
     margin-bottom: 15px; 
 }
 
-#cards a div { 
+#cards article div { 
     font-family: "Inter", Sans-serif; 
     font-size: 16px; 
     font-weight: 400; 
@@ -47,13 +47,14 @@
     margin-bottom: 20px; 
 }
 
-#cards a span { 
+#cards article a { 
     display:block; 
     padding: 15px 30px; 
     font-family: "Inter", Sans-serif; 
     font-size: 16px; 
     font-weight: 600; 
     color: #1649ff;
+    text-decoration: none;
 }
 
 #cards:hover { 

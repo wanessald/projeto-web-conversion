@@ -5,12 +5,12 @@ function CardServicos({ id, icone, titulo, descricao, link }) {
   return (
     <div id="cards">
       <div className={styles.container}>
-        <a href="#">
+        <article className="card-servicos">
         <img src={icone} alt={titulo} className={styles.icone} />
         <h3>{titulo}</h3>
         <div>{descricao}</div>
-        <span href={link}>Saiba mais</span>
-        </a>
+        <a href={link}>Saiba mais</a>
+        </article>
       </div>
       </div>
   );

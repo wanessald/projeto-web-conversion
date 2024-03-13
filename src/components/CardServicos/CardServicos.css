@@ -1,0 +1,63 @@
+.container { 
+    width: 98%; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: stretch; 
+    gap: 20px 20px; 
+}
+
+#cards { 
+    background-color: #fff; 
+    width: 280px; 
+    min-height: 380px; 
+    border-radius: 8px; 
+    transition: all .3s; 
+}
+
+#cards a { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: stretch; 
+    text-align: center; 
+    text-decoration: none; 
+    color: unset; 
+    padding: 42px 20px 20px; 
+}
+
+#cards a img { 
+    width: 45px; 
+    height: 45px; 
+    margin: 0 auto 15px; 
+}
+
+#cards a h3 { 
+    font-size: 22px;
+    font-weight: 800;
+    color: #4f5f82; 
+    margin-bottom: 15px; 
+}
+
+#cards a div { 
+    font-family: "Inter", Sans-serif; 
+    font-size: 16px; 
+    font-weight: 400; 
+    line-height: 24px; 
+    color: #4f5f82; 
+    margin-bottom: 20px; 
+}
+
+#cards a span { 
+    display:block; 
+    padding: 15px 30px; 
+    font-family: "Inter", Sans-serif; 
+    font-size: 16px; 
+    font-weight: 600; 
+    color: #1649ff;
+}
+
+#cards:hover { 
+    background-color: #ffeb5a; 
+    transform: scale(1.05); 
+} 
+

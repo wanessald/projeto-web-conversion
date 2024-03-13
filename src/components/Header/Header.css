@@ -1,0 +1,125 @@
+.cabecalho_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 3rem;
+    background-color: #FFFFFF;
+    border: 2px solid #ecf0ff;
+}
+
+.logo_item {
+    padding: 10px 10px;
+    flex-shrink: 0;
+}
+
+.logo_item img {
+    max-height: 3rem;
+}
+
+.cabecalho_secoes {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.cabecalho-pesquisa,
+.cabecalho-servicos {
+    text-decoration: none;
+    color: #171717;
+    font-weight: 400;
+    font-size: 18px;
+    transition: .1s;
+}
+
+.cabecalho-pesquisa:hover,
+.cabecalho-servicos:hover {
+    color: #1649FF;
+}
+
+.cabecalho_btn {
+    display: flex;
+    align-items: center;
+}
+
+.btn-agendar {
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #00BFA5;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+.btn-agendar:hover {
+    background-color: #00bfa6d2;
+    border-color: #00bfa6d2;
+} 
+
+.menu-hamburguer {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
+    cursor: pointer;
+    color: #1649FF;
+}
+
+@media (max-width: 768px) {
+    .menu-hamburguer {
+        display: flex;
+    }
+
+    .cabecalho_secoes {
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        align-content: flex-start;
+        font-size: 0.8rem;
+        background-color: #ffffff;
+        padding: 1rem;
+        position: absolute;
+        top: 60px; 
+        left: 0;
+    }
+
+    .cabecalho_secoes.open {
+        display: flex;
+    }
+
+    .cabecalho_btn {
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        align-content: flex-start;
+        background-color: #FFFFFF;
+        font-size: 0.8rem;
+        padding: 0.2rem;
+        position: absolute;
+        top: 60px; 
+        left: 0;
+        width: 100%;
+        margin-top: 5rem;
+      }
+    
+    .cabecalho_btn.open {
+        display: flex;
+    }
+
+    .btn-agendar {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+}
+
+
+
+ 
+
+
+

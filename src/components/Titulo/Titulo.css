@@ -1,0 +1,35 @@
+.titulo_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    background-size: cover;
+    background-color: var(--branco);
+}
+
+.titulo_container h1 {
+    padding: 2em 2%;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 1.2em;
+    text-align: center;
+    color: #171717;
+}
+
+.titulo_container span {
+    color: #1649FF;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .titulo_container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        min-height: auto;
+    }
+
+    .titulo_container h1 {
+        font-size: 1.5rem;
+    }
+}

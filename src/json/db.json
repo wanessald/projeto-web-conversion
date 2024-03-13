@@ -1,0 +1,39 @@
+
+[
+    {
+        "id": 1,
+        "icone": "https://www.conversion.com.br/wp-content/uploads/2022/11/link-building-4.svg",
+        "titulo": "Link Building 4.0",
+        "descricao": "Somos uma assessoria de imprensa com foco em criar pautas para conquistar backlinks de veículos com autoridade." ,
+        "link": "https://www.conversion.com.br/link-building/"
+    },
+    {
+        "id": 2,
+        "icone": "https://www.conversion.com.br/wp-content/uploads/2023/05/mdi_head-lightbulb-outline.svg",
+        "titulo": "Inbound SEO",
+        "descricao": "Estratégia e execução de conteúdo para gerar tráfego qualificado." ,
+        "link": "https://www.conversion.com.br/inbound-seo/"
+    },
+    {
+        "id": 3,
+        "icone": "https://www.conversion.com.br/wp-content/uploads/2022/11/data-driven-pr-1.svg",
+        "titulo": "E-commerce SEO",
+        "descricao": "Aumente a visibilidade de seu e-commerce com as estratégias de SEO validadas por grandes e-commerces." ,
+        "link": "https://www.conversion.com.br/ecommerce-seo/"
+    },
+    {
+        "id": 4,
+        "icone": "https://www.conversion.com.br/wp-content/uploads/2023/05/Edit.svg",
+        "titulo": "Growth Content",
+        "descricao": "Novo serviço de marketing de conteúdo orientado a gerar maior tráfego qualificado de busca orgânica." ,
+        "link": "https://www.conversion.com.br/growth-content/"
+    },
+    {
+        "id": 5,
+        "icone": "https://www.conversion.com.br/wp-content/uploads/2022/11/strategic-seo-1.svg",
+        "titulo": "Squad de SEO",
+        "descricao": "Conte com um time dedicado de profissionais multidisciplinares por um mesmo objetivo." ,
+        "link": "https://www.conversion.com.br/squad/"
+    }
+    
+]

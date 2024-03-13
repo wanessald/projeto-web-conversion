@@ -4,8 +4,8 @@
 
 Este projeto consiste no desenvolvimento de uma página web que oferece a funcionalidade de busca por fotos de gatos, além de apresentar informações sobre serviços oferecidos pela empresa.
 
-## Layout 
-
+## Demonstração 
+![layout-gif](https://github.com/wanessald/projeto-web-conversion/assets/84744185/9baa4259-05a8-44d5-9881-4b7fd91e90f0)
 
 # Objetivos do projeto
 

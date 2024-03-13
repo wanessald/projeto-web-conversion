@@ -9,9 +9,9 @@ function Header() {
 
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
-  };
+  // const toggleMenu = () => {
+  //   setMenuOpen(!menuOpen);
+  // };
 
 const scrollToSection = (id) => {
   const element = document.getElementById(id);
@@ -29,9 +29,9 @@ const scrollToSection = (id) => {
             <img src={logo} alt="Logo Conversion" />
           </Link>
 
-          <a href="#" className="menu-hamburguer" onClick={() => setMenuOpen(!menuOpen)}>
+          <button href="" className="menu-hamburguer" onClick={() => setMenuOpen(!menuOpen)}>
           <FaBars />
-          </a>
+          </button>
           
         <div className={`cabecalho_secoes ${menuOpen ? "open" : ""}`}>
             <Link 

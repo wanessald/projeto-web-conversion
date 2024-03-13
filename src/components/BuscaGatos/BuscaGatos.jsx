@@ -6,7 +6,6 @@ import Galeria from "../Galeria/Galeria";
 
 function BuscaGatos() {
   const [query, setQuery] = useState('');
-  const [breeds, setBreeds] = useState([]);
   const [images, setImages] = useState([]);
   const [error, setError] = useState(null);
   const [breedsMap, setBreedsMap] = useState({});
@@ -24,7 +23,6 @@ function BuscaGatos() {
         }
   );
   const data = response.data;
-  setBreeds(data);
 
   const breedsObject = {};
         data.forEach((breed) => {
